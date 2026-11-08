@@ -22,3 +22,4 @@ services:
         value: admin
       - key: ADMIN_PASSWORD
         sync: false
+
