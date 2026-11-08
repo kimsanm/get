@@ -1,23 +1,22 @@
 {
-  "name": "telegram-mail-otp-backend",
+  "name": "telegram-mail-otp-system",
   "version": "1.0.0",
-  "description": "Backend API and Telegram Bot for Mail Sales and OTP Retrieval via IMAP",
-  "main": "src/index.js",
+  "description": "Telegram Bot & React Full-Stack Platform for Mail Sales and Real-time IMAP OTP Retrieval",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "start": "node backend/src/index.js",
+    "render-build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
   },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.119.0",
-    "bcryptjs": "^2.4.3",
-    "better-sqlite3": "^11.8.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "imap-simple": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mailparser": "^3.7.2",
-    "telegraf": "^4.16.3",
-    "uuid": "^11.1.0"
-  }
+  "keywords": [
+    "telegram-bot",
+    "react",
+    "imap",
+    "otp",
+    "email-sales",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC"
 }
