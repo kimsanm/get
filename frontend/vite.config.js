@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5005',
+        target: 'https://get-5w3d.onrender.com/',
         changeOrigin: true
       }
     }
