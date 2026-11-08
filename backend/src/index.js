@@ -56,7 +56,7 @@ const PORT = config.port;
 app.listen(PORT, () => {
   console.log(`===============================================`);
   console.log(`🚀 Mail Store & OTP Server running on port ${PORT}`);
-  console.log(`👉 API Health: http://localhost:${PORT}/api/health`);
+  console.log(`👉 API Health: https://get-5w3d.onrender.com/api/health`);
   console.log(`🔑 Admin Login: ${config.admin.username} / ${config.admin.password}`);
   console.log(`===============================================`);
 });
